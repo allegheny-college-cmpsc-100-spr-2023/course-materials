@@ -63,8 +63,8 @@ The table below summarizes evaluative outcomes.
 
 |Final letter grade |Assignments completed |Proposals completed |Improvements implemented |
 |:------------------|:---------------------|:-------------------|:------------------------|
-|`A`                | 10                   |8                   |8                        |
-|`A-`               | 10                   |8                   |6                        |
+|`A`                | 10                   |6                   |6                        |
+|`A-`               | 10                   |6                   |5                        |
 |`B+`               | 10                   |6                   |4                        |
 |`B`                | 10                   |4                   |4                        |
 |`B-`               | 10                   |4                   |2                        |
