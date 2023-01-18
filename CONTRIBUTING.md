@@ -123,17 +123,8 @@ Of course, this command has to be run in the directory that houses the Python fi
 inventory
 ```
 
-You will get:
-
-```
-                  cliv3's inventory                   
-┏━━━━━━━━━━━━┳━━━━━━━━━━━━┳━━━━━━━━━━━━┳━━━━━━━━━━━━┳━━━━━━━━┓
-┃ Item name  ┃ Item count ┃ Item file  ┃ Consumable ┃ Volume ┃
-┡━━━━━━━━━━━━╇━━━━━━━━━━━━╇━━━━━━━━━━━━╇━━━━━━━━━━━━╇━━━━━━━━┩
-│ Tomato     │ 1          │ Tomato.py  │ False      │ 3      │
-└────────────┴────────────┴────────────┴────────────┴────────┘
-Your current total volume limit is: 3/10
-```
+You will see a screen similar to that below:
+![Inventory screen showing three items](https://raw.githubusercontent.com/allegheny-college-cmpsc-100-spr-2023/course-materials/media/img/TW%20-%20Inventory.png)
 
 ### get 
 
