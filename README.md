@@ -10,7 +10,7 @@ This resource contains the rules that we need to agree to in order to make that 
 
 * [Office hours schedule](https://chompe.rs/office-hours)
 * [Course Calendar](https://chompe.rs/100-schedule)
-* [Course Contract](CODE_OF_CONDUCT.md)
+* [Course Contract](https://github.com/allegheny-college-cmpsc-100-spr-2023/course-materials/blob/contract/CODE_OF_CONDUCT.md)
 * [Technical Leader directory](https://www.cs.allegheny.edu/teaching/technicalleaders/)
 * [Course video playlist](https://chompe.rs/term-world-videos)
 
