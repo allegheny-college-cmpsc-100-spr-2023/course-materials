@@ -39,20 +39,27 @@ In order to complete the workload for any project you'll first need to `clone` t
 
 When you `clone` a repository you're duplicating its contents and adding them to your local workspace (e.g., your `term-world` browser) where you can safely edit the contents of the repository as needed.
 
-Head to GitHub and:
-* click on the green `Code` button
-* ensure that `SSH` is selected
-* copy the link that appears in the window below
+This time around, we will `clone` our repositories. This is the way we'll interact with `git` and GitHub for the remainder of the semester. We can consider a `clone` as something that's part download, part direct link. It's a similar relationship between that of GitHub, `term-world`, and our `house`.
 
-![Location of clone link under green button at upper right corner](https://raw.githubusercontent.com/term-world/syllabus-template/media/img/TW%20-%20Clone%20link%20diagram.png)
+The process has two (2) major parts.
 
-Once you've copied this link, navigate to your terminal window, go to the file that you clone the repository into, then with your copied link enter the command:
+### GitHub
 
-```
-git clone COPIED-LINK-HERE
-```
+- On your GitHub assignment page (i.e. _this_ page) locate the green `Code` button
+- Select the `SSH` link from options presented
+- `Copy` or click the button at the far right of the textbox on that screen
 
-After you enter your password made with the `SSH` key the assignment will have been cloned into `term-world`.
+![TW - Clone link diagram](https://user-images.githubusercontent.com/1552764/213940345-2e62ec2e-e017-40ff-b325-745f9e731041.png)
+
+### `term-world`
+
+![TW - Clone Repo](https://user-images.githubusercontent.com/1552764/213931807-993be051-59e4-4102-b183-8c65bacaadee.png)
+
+- In `term-world`, find the `Source Control` menu
+- Locate and click the `...` at the top right of the window
+- Choose `Clone` from the list of options
+- Paste the link copied above
+- Choose your home folder as the location into which to clone the repository
 
 ## Common Commands
 
