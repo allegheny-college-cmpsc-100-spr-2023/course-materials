@@ -249,38 +249,20 @@ As you can tell, there are some checks which have been satisfied, though there a
 
 ## Submitting or Saving Content
 
-In order to save and submit your work you will first have to locate the "root" folder of the assignment using `cd` commands. Once there you need to tell `GitHub` that you want to upload all files in this folder with the command:
+The GitHub platform is a place to store your work. So, it makes some sense that should be able to download from it, and push back (upload) to it. Here, we'll learn this second part.
 
-```
-git add -A
-```
+Bottom line: we need to tell git that there have been changes.
 
-Or if you just want to push singluar files or folders to `Github` then you can instead use the command
+Observe the list of files you've changed and add them to a staging area using the + button to the right of each file
+Once these have been "staged," attach a message to what we call a commit -- a "packaging" of the files to send to GitHub.
 
-```
-git add NAME_OF_FILE_OR_DIRECTORY_TO_ADD
-```
+To follow this process:
 
-After that, We will then add a message and commit this work to `Github` with the command:
-
-```
-git commit -m "MESSEGE-HERE"
-```
-* The messege here should be short but discriptive as to what you acomplished
-
-If you're not working off of a `branch`, then you can send the changes to the server with the command:
-
-```
-git push
-```
-
-If you *are* working off of a `branch`, then you'll instead need to complete the `add`-`commit`-`push` chain with the following adjusted command:
-
-```
-git push origin BRANCH-NAME-HERE
-```
+![TW - Commit and Sync](https://user-images.githubusercontent.com/1552764/213940290-23b12a8a-6283-492c-ab1c-66a801ba815e.png)
 
 To complete the process you'll need to input the password associated with your `SSH` key.
+
+### Branched Content
 
 If you pushed content to a branch away from `main`, you can now make a `Pull-request` in `GitHub` by clicking on the `Pull-request` tab and creating a new `Pull-request` that compares your branch to `main`. From there you can evaulate the changes made and `merge` your branch with main.
 
